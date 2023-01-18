@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <com.newgbdt.qq.QQView
+        android:id="@+id/QQ"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:Strip_width="15dp"
+        app:Strip_lowcolor="@color/teal_700"
+        app:Strip_color="@color/teal_200"
+        app:Strip_textcolor="#151212"
+        app:Strip_textsize="90sp"></com.newgbdt.qq.QQView>
+</LinearLayout>

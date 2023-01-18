@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="QQView">
+        <attr name="Strip_width" format="dimension"></attr>
+        <attr name="Strip_lowcolor" format="color"></attr>
+        <attr name="Strip_color" format="color"></attr>
+        <attr name="Strip_textcolor" format="color"></attr>
+        <attr name="Strip_textsize" format="dimension"></attr>
+    </declare-styleable>
+</resources>
